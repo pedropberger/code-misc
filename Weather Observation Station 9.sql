@@ -1,0 +1,7 @@
+SELECT DISTINCT CITY
+FROM STATION
+WHERE NOT CITY LIKE 'A%' AND NOT CITY LIKE 'E%' AND NOT CITY LIKE 'I%' AND NOT CITY LIKE 'O%' AND NOT CITY LIKE 'U%'
+
+
+-- most important part of this lesson is that we use NOT CITY LIKE instead CITY NOT LIKE.
+-- Easy lesson, MySQL
