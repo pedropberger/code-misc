@@ -1,2 +1,2 @@
-X = 'hello world'
+x = 'hello world'
 Print(x)
