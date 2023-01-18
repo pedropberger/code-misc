@@ -1,0 +1,41 @@
+####Comandos Docker
+
+
+#rodar qualquer coisa no docker
+
+docker run -d -p 80:80 docker/getting-started
+
+#Resumo de tudo que está operando
+
+docker ps
+
+#Conteiners mesmo sem estar em execução
+
+docker ps -a
+
+#Iniciar conteiner em backgroud
+
+docker run -d
+
+#Iniciar conteiner em backgroud no terminal com nome Lab1
+
+docker run -dt --name Lab1 ubuntu
+
+#Interagir com o conteiner
+
+docker exec -it Lab1 /bin/bash
+
+
+############### LAB1
+
+#instalar Ubunto
+
+docker pull ubuntu
+
+#rodar o conteiner com nome LAB1 no terminal a partir da imagem ubuntu
+
+docker run -dt --name Lab1 ubuntu
+
+#Rodar bash no ubuntu
+
+docker exec -it Lab1 /bin/bash
