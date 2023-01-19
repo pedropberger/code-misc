@@ -39,3 +39,8 @@ docker run -dt --name Lab1 ubuntu
 #Rodar bash no ubuntu
 
 docker exec -it Lab1 /bin/bash
+
+#criar conteiner compartilhando fileserver
+
+docker run -it --name exemplo1 --mount type=bind,source=D:\docker_files,target=/mnt/dsacademy ubuntu
+
