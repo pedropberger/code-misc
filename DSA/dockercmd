@@ -44,3 +44,15 @@ docker exec -it Lab1 /bin/bash
 
 docker run -it --name exemplo1 --mount type=bind,source=D:\docker_files,target=/mnt/dsacademy ubuntu
 
+#verificar a rede do docker
+
+docker network ls
+
+docker network COMMAND
+
+#Inspecionar conteinet
+
+docker inspect Nomecoteiner
+
+
+
