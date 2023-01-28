@@ -1,1 +1,1 @@
-Misc code, for diferent projects and tests
+Misc code, from diferent projects and tests
